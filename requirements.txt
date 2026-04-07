@@ -1,0 +1,6 @@
+flask
+flask_sqlalchemy
+requests
+qrcode[pil]
+flask-mail
+gunicorn

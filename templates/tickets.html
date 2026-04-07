@@ -1,0 +1,10 @@
+<h2>Tickets</h2>
+
+{% for t in tickets %}
+<div>
+    <p>{{ t.ticket_code }}</p>
+    <img src="/static/qrcodes/{{ t.ticket_code }}.png" width="150">
+    <p>Used: {{ t.used }}</p>
+</div>
+<hr>
+{% endfor %}
